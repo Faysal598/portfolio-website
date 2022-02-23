@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+h1{
+    font-weight: 900px;
 }
 .top-banner, .our-services, .about-us{
     display: flex;
@@ -14,7 +18,7 @@
 }
 .title{
     text-align: center;
-    margin: 3em 0 0 0;
+    margin: 3em 0 1em 0;
 }
 .card-item{
     display: flex;
@@ -23,10 +27,14 @@
     width: 8em;
 }
 .card{
-    background: rgba(79, 157, 166, 0.1);
+    /* background: rgba(79, 157, 166, 0.1); */
     margin: 0 5em 0 5em;
     width: 40em;
     padding: 15px;   
+    border-radius: 1em
+}
+.card h3{
+    margin: 0 0 1em 0;
 }
 .our-services-img{
     width: 20em;
@@ -36,7 +44,7 @@
     margin: 6em 5em 0 0;
 }
 .about-us-details{
-    margin: 3em 10em 0 5em;
+    margin: 6em 10em 0 5em;
 }
 .about-us-img{
     width: 20em;
@@ -59,12 +67,53 @@ footer{
 .comment{
     margin: 1em 2em 0 0;
 }
-.contact button{
-    margin: 2em 0 0 0;
-}
-.contact{
+.contact-info{
     background-color:coral;
     margin: 3em 5em 0 5em;
     padding: 2em;
+    color: white;
     border-radius: 2em;
+}
+.intro h1, .intro p{
+    font-family: 'Spartan', sans-serif;
+}
+.orange-color{
+    color: #FFAD5A;
+    margin: 0.5em 0 0 0;
+}
+.intro p, .intro button{
+    margin: 1em 0 0 0;
+}
+.intro button a, .about-us button a, .our-services button a{
+    text-decoration: none;
+    color: white;
+}
+.intro button{
+    
+    background: #FF5959;
+    border: 0;
+    width: 8em;
+    height: 3em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.our-services-details button, .about-us-details button, .contact button{
+    color: white;
+    background: #FF5959;
+    border: 0;
+    width: 14em;
+    padding: 0.3em;
+    height: 3em;
+    border-radius: 0.5em;
+    margin: 2em 0 0 0;
+    cursor: pointer;
+}
+.our-services-details h1, .about-us-details h1{
+    margin: 0 0 0.5em 0;
+}
+footer h2{
+    font-family: 'Pacifico', cursive;
+    /* font-family: 'Spartan', sans-serif; */
 }
