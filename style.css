@@ -2,13 +2,69 @@
     margin: 0;
     padding: 0;
 }
-.top-banner{
+.top-banner, .our-services, .about-us{
     display: flex;
 }
 .intro{
     margin: 9em 10em 0 5em;
 }
 .profile-pic img{
-    width: 30em;
+    width: 28em;
     margin: 0 5em 0 0;
+}
+.title{
+    text-align: center;
+    margin: 3em 0 0 0;
+}
+.card-item{
+    display: flex;
+}
+.card img{
+    width: 8em;
+}
+.card{
+    background: rgba(79, 157, 166, 0.1);
+    margin: 0 5em 0 5em;
+    width: 40em;
+    padding: 15px;   
+}
+.our-services-img{
+    width: 20em;
+    margin: 3em 10em 0 5em;
+}
+.our-services-details{
+    margin: 6em 5em 0 0;
+}
+.about-us-details{
+    margin: 3em 10em 0 5em;
+}
+.about-us-img{
+    width: 20em;
+    margin: 3em 5em 0 0;
+}
+footer{
+    text-align: center;
+    margin: 4em 0 0 0;
+    background: #0B0D17;
+    color: white;
+    line-height: 4em;
+}
+.contact{
+    text-align: center;
+    margin: 4em 0 0 0;
+}
+.contact-info{
+    margin: 2em 0 0 0;
+}
+.comment{
+    margin: 1em 2em 0 0;
+}
+.contact button{
+    margin: 2em 0 0 0;
+}
+.contact{
+    background-color:coral;
+    margin: 3em 5em 0 5em;
+    padding: 2em;
+    border-radius: 2em;
 }
